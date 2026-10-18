@@ -24,170 +24,130 @@
             </div>
         </section>
 
-        <section id="About" class = "pt-28 bg-gradient-to-b from-slate-950 to-black font-italic">
-            <h2 class="text-5xl font-bold px-4">About Me</h2>
-            <br>
-            <p2 class="text-lg px-4 flex items-center">I'm Shayaan, a passionate and curious engineer, based in Waterloo Ontario who loves turning ideas into real things. I use logic with creativity to build clean, efficient, and eco-centered solutions.</p2>
-            <br>
-            <h3 class="text-4xl px-4 font-bold">Passions/Hobbies:</h3>
-            <br>
-            <h4 class="text-2xlg px-5 font-bold pt-1">Photography:</h4>
-            <p class="px-8 pt-1">I enjoy taking photos of airplanes, family moments, and beautiful landscapes. I currenly have a old Sony A6000, but I want to uprgrade to a Sony Alpha A7II</p>
-            <br>
-            <h5 class="text-2xlg px-5 font-bold pt-1">Music:</h5>
-            <p class="px-8 pt-1">I'm into listening to a lot of types of music, such as rap and alternative soul but I'm most into 2000s RnB. Moreover, I take a passion of playing the guitar and other band instruments.</p>
-            <br>
-            <h3 class="text-4xl px-4 font-bold">Project And Experience:</h3>
-            <br>
-            <h6 class="text-2xlg px-5 font-bold pt-1">Nap-Pad:</h5>
-            <p class="px-8 pt-1">Nap-Pad is a custom 60% mechanical keyboard designed in KiCad, featuring a sleek layout, a tactile knob, and powered by a Raspberry Pi Pico.</p>
-            <br>
-            <h7 class = "text-2xlg px-5 font-bold pt-1">PCB Board Workshop</h7>
-            <p class = "px-8 pt-1">Assembled and soldered a custom PCB, gaining hands-on experience with components, tools, and collaborative problem-solving in a workshop setting.</p>
-            <br>
-            <h8 class = "text-2xlg px-5 font-bold pt-1">Task-Topper</h8>
-            <p class = "px-8 pt-1">Co-developed a custom GPT with a team of four, focusing its student-focused features like tutoring, mental health support, and academic resources.</p>
-            <br>
-            <br>
+        <section id="About" class="bg-gradient-to-b from-slate-950 to-black px-4 pb-24 pt-28 sm:px-6">
+            <div class="mx-auto max-w-6xl space-y-10">
+                <header class="max-w-3xl space-y-4">
+                    <span class="inline-block rounded-md border border-red-400/30 bg-red-400/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-red-300">A little about me</span>
+                    <h2 class="text-4xl font-extrabold text-white sm:text-5xl">Curiosity, made tangible.</h2>
+                    <p class="text-base leading-relaxed text-slate-300 sm:text-lg">I'm Shayaan, a passionate and curious engineer based in Waterloo, Ontario. I love turning ideas into real things, using logic and creativity to build clean, efficient, and eco-centered solutions.</p>
+                </header>
+
+                <div class="grid gap-10 md:grid-cols-2 md:gap-8">
+                    <section aria-labelledby="passions-heading" class="space-y-5">
+                        <div class="flex items-center gap-3 border-b border-white/10 pb-3">
+                            <span class="font-mono text-sm font-bold text-yellow-300">01</span>
+                            <h3 id="passions-heading" class="text-2xl font-bold text-white">Passions &amp; hobbies</h3>
+                        </div>
+                        <article class="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-wide text-cyan-300">Behind the camera</p>
+                            <h4 class="mb-2 text-xl font-bold text-white">Photography</h4>
+                            <p class="text-sm leading-relaxed text-slate-300">I enjoy taking photos of airplanes, family moments, and beautiful landscapes. I currently use an older Sony A6000 and hope to upgrade to a Sony Alpha A7II.</p>
+                        </article>
+                        <article class="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-wide text-emerald-300">On repeat</p>
+                            <h4 class="mb-2 text-xl font-bold text-white">Music</h4>
+                            <p class="text-sm leading-relaxed text-slate-300">I listen to all kinds of music, especially rap, alternative soul, and 2000s R&amp;B. I also enjoy playing guitar and other band instruments.</p>
+                        </article>
+                    </section>
+
+                    <section aria-labelledby="projects-heading" class="space-y-5">
+                        <div class="flex items-center gap-3 border-b border-white/10 pb-3">
+                            <span class="font-mono text-sm font-bold text-red-300">02</span>
+                            <h3 id="projects-heading" class="text-2xl font-bold text-white">Projects &amp; experience</h3>
+                        </div>
+                        <article class="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-wide text-red-300">Hardware · KiCad</p>
+                            <h4 class="mb-2 text-xl font-bold text-white">Nap-Pad</h4>
+                            <p class="text-sm leading-relaxed text-slate-300">A custom 60% mechanical keyboard designed in KiCad, with a compact layout, tactile knob, and Raspberry Pi Pico.</p>
+                        </article>
+                        <article class="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-wide text-yellow-300">Workshop</p>
+                            <h4 class="mb-2 text-xl font-bold text-white">PCB Board Workshop</h4>
+                            <p class="text-sm leading-relaxed text-slate-300">Assembled and soldered a custom PCB, gaining hands-on experience with components, tools, and collaborative problem-solving.</p>
+                        </article>
+                        <article class="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-wide text-cyan-300">Team project · AI</p>
+                            <h4 class="mb-2 text-xl font-bold text-white">Task-Topper</h4>
+                            <p class="text-sm leading-relaxed text-slate-300">Co-developed a custom GPT with a team of four, focused on student needs like tutoring, mental health support, and academic resources.</p>
+                        </article>
+                    </section>
+                </div>
+            </div>
         </section>
 
-        <!--FAQ-->
-        <section id="FAQ" class="bg-black">
-            <h6 class="text-5xl font-bold text-center mb-10">Frequently Asked Questions</h6>
-              <div class="max-w-3xl mx-auto space-y-6 px-6">
+        <section id="FAQ" class="bg-black px-4 py-20 sm:px-6">
+            <div class="mx-auto max-w-4xl">
+                <header class="mb-10 text-center">
+                    <span class="text-xs font-bold uppercase tracking-[0.2em] text-red-300">Good to know</span>
+                    <h2 class="mt-3 text-4xl font-extrabold text-white sm:text-5xl">Frequently asked questions</h2>
+                    <p class="mt-4 text-slate-300">A few quick answers about me and the things I make.</p>
+                </header>
 
-                <details class="bg-slate-900 p-4 rounded">
-                    <summary>What is Duck-Pad?</summary>
-                    <P class="mt-2 text-slate-300">A custom 60% keyboard with a knob, made in KiCad and powered by a Raspberry Pi Pico. All made custom</P>
-                </details>
+                <div class="space-y-4">
+                    <details class="group rounded-2xl border border-white/10 bg-slate-900/80 p-5 open:border-red-400/40">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-white">
+                            What is Nap-Pad?
+                            <span class="text-red-300 transition group-open:rotate-45" aria-hidden="true">+</span>
+                        </summary>
+                        <p class="mt-4 leading-relaxed text-slate-300">It's a custom 60% mechanical keyboard designed in KiCad, with a tactile knob and a Raspberry Pi Pico.</p>
+                    </details>
 
-                <details class="bg-slate-900 p-4 rounded">
-                    <summary>What is your race?</summary>
-                    <P class="mt-2 text-slate-300">Why did u open this???? dw im muslim if the homepage didn't give it away ;)</P>
-                </details>
+                    <details class="group rounded-2xl border border-white/10 bg-slate-900/80 p-5 open:border-red-400/40">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-white">
+                            What do you like doing?
+                            <span class="text-red-300 transition group-open:rotate-45" aria-hidden="true">+</span>
+                        </summary>
+                        <p class="mt-4 leading-relaxed text-slate-300">I enjoy engineering projects, photography, listening to music, and playing guitar and other band instruments.</p>
+                    </details>
 
-                <details class="bg-slate-900 p-4 rounded">
-                    <summary>What camera do you use?</summary>
-                    <P class="mt-2 text-slate-300">Right now I use a Sony A6000, but I want to upgrade to an A7II.</P>
-                </details>
+                    <details class="group rounded-2xl border border-white/10 bg-slate-900/80 p-5 open:border-red-400/40">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-white">
+                            What camera do you use?
+                            <span class="text-red-300 transition group-open:rotate-45" aria-hidden="true">+</span>
+                        </summary>
+                        <p class="mt-4 leading-relaxed text-slate-300">I currently use a Sony A6000 and hope to upgrade to a Sony Alpha A7II.</p>
+                    </details>
 
-                <br>
-              </div>
+                    <details class="group rounded-2xl border border-white/10 bg-slate-900/80 p-5 open:border-red-400/40">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-white">
+                            How can I get in touch?
+                            <span class="text-red-300 transition group-open:rotate-45" aria-hidden="true">+</span>
+                        </summary>
+                        <p class="mt-4 leading-relaxed text-slate-300">Send me an email using the contact link below.</p>
+                    </details>
+                </div>
+            </div>
         </section>
-
-        <!--testimony-->
-        <section id="" class="bg-black">
-            <h2 class="text-4xl font-bold text-center">What People Say</h2>
-
-            <div class="bg-black p-6 rounded-lg shadow-md">
-                <p class="italic mb-4">“Shayaan is incredibly creative and focused — a joy to work with!”</p>
-                <p class="font-semibold">— Aayan Ahmed, Coworker</p>
-            </div>
-
-            <div class="bg-black p-6 rounded-lg shadow-md">
-                <p class="italic mb-4">“A great mix of technical skill and artistic sense.”</p>
-                <p class="font-semibold">—Mrs. Ahmed, Teacher </p>
-            </div>
-            
-            <div class="bg-black p-6 rounded-lg shadow-md">
-                <p class="italic mb-4">“fill in”</p>
-                <p class="font-semibold">—Anonymous, Coworker </p>
-            </div>
-
-        </section>
-
-<!-- Stat Bar -->
-<section class="bg-black py-6">
-    <h2 class="text-4xl font-bold text-center text-white mb-6">Stats</h2>
-
-    <div class="w-full max-w-2xl mx-auto">
-        <!-- Label -->
-        <div class="flex justify-between items-center mb-1 text-white">
-            <span>Photos Taken</span>
-            <span>293</span>
-        </div>
-
-        <!-- Progress Bar -->
-        <div class="w-full bg-gray-800 rounded-full h-4">
-            <div class="bg-red-500 h-4 rounded-full" style="width: 75%;"></div>
-        </div>
-    </div>
-</section>
-
-<!-- Stat Bar -->
-<section class="bg-black py-6">
-    <div class="w-full max-w-2xl mx-auto">
-        <!-- Label -->
-        <div class="flex justify-between items-center mb-1 text-white">
-            <span>Photos Edited</span>
-            <span>223</span>
-        </div>
-
-        <!-- Progress Bar -->
-        <div class="bg-slate-800 rounded-full h-4">
-            <div class="bg-red-500 h-4 rounded-full" style="width: 65%;"></div>
-        </div>
-    </div>
-</section>
 
 <!--contact-->
-<section id="Contact" class="bg-black">
-    <br>
-  <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
-  
-  <ul class="space-y-4 text-center text-lg">
-    <li>
-      <a href="https://theduck7702.github.io/Shayaan_Shaikh_770/" target="_blank" class="text-blue-400 hover:underline">
-        Website: ShayaanShaikh.com
-      </a>
-    </li>
-    <li>
-      <a href="mailto:shais5738@gmail.com" class="text-blue-400 hover:underline">
-        Email: shais5738@gmail.com
-      </a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/shayanissleepy/?igsh=MWhyOWdiazAwaTV3dw%3D%3D#" target="_blank" class="text-blue-400 hover:underline">
-        Instagram: @shayanissleepy
-      </a>
-    </li>
-  </ul>
-  <br>
-</section>
+<section id="Contact" class="bg-gradient-to-b from-black to-slate-950 px-4 py-20 sm:px-6">
+    <div class="mx-auto max-w-5xl">
+        <div class="mx-auto mb-10 max-w-2xl text-center">
+            <span class="text-xs font-bold uppercase tracking-[0.2em] text-red-300">Let's connect</span>
+            <h2 class="mt-3 text-4xl font-extrabold text-white sm:text-5xl">Contact me</h2>
+            <p class="mt-4 leading-relaxed text-slate-300">Have a question, an idea, or want to get in touch? Find me here.</p>
+        </div>
 
-<!-- Spotify Section -->
-<section id="Spotify" class="bg-black py-8 flex flex-col items-center space-y-6">
-    <!-- Track Embed -->
-    <div class="w-80 md:w-96">
-        <iframe 
-            data-testid="embed-iframe"
-            style="border-radius:12px"
-            src="https://open.spotify.com/embed/track/3azJifCSqg9fRij2yKIbWz?utm_source=generator" 
-            width="100%" 
-            height="152" 
-            frameborder="0" 
-            allowfullscreen 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            loading="lazy">
-        </iframe>
-    </div>
-
-    <!-- Album Embed -->
-    <div class="w-80 md:w-96">
-        <iframe 
-            data-testid="embed-iframe"
-            style="border-radius:12px"
-            src="https://open.spotify.com/embed/album/7zCODUHkfuRxsUjtuzNqbd?utm_source=generator" 
-            width="100%" 
-            height="152" 
-            frameborder="0" 
-            allowfullscreen 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            loading="lazy">
-        </iframe>
+        <div class="grid gap-4 sm:grid-cols-3">
+            <a href="mailto:shais5738@gmail.com" class="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:-translate-y-1 hover:border-red-400/50">
+                <span class="text-sm font-bold uppercase tracking-wide text-red-300">Email</span>
+                <span class="mt-3 block break-all text-lg font-semibold text-white">shais5738@gmail.com</span>
+                <span class="mt-2 block text-sm text-slate-400">Send me a message</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shayaan-shaikh-342078308/" target="_blank" rel="noopener noreferrer" class="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:-translate-y-1 hover:border-red-400/50">
+                <span class="text-sm font-bold uppercase tracking-wide text-red-300">LinkedIn</span>
+                <span class="mt-3 block text-lg font-semibold text-white">Connect with me</span>
+                <span class="mt-2 block text-sm text-slate-400">View my professional profile</span>
+            </a>
+            <a href="https://theduck7702.github.io/Shayaan_Shaikh_770/" target="_blank" rel="noopener noreferrer" class="rounded-2xl border border-white/10 bg-slate-900/80 p-6 transition hover:-translate-y-1 hover:border-red-400/50">
+                <span class="text-sm font-bold uppercase tracking-wide text-red-300">Website</span>
+                <span class="mt-3 block text-lg font-semibold text-white">ShayaanShaikh.com</span>
+                <span class="mt-2 block text-sm text-slate-400">Visit my website</span>
+            </a>
+        </div>
     </div>
 </section>
-       
+
 <footer class="bg-gradient-to-b from-black to-slate-950">
         <!--for fake copy right-->
             <div class="text-center">
